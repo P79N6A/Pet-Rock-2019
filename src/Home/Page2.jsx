@@ -11,31 +11,31 @@ import Building from './technology-comp/Building';
 
 const pageData = [
   {
-    title: 'Ant Design',
-    content: '一个面向企业级应用的 UI 设计语言与技术实现',
+    title: 'Web Development',
+    content: 'HTML, CSS, JS',
     links: [
-      <a key="0" href="https://ant.design" target="_blank">Web&nbsp;&nbsp;<Icon type="right" /></a>,
-      <a key="1" href="https://mobile.ant.design" target="_blank">Mobile&nbsp;&nbsp;<Icon type="right" /></a>,
-      <a key="2" href="https://pro.ant.design" target="_blank">Pro&nbsp;&nbsp;<Icon type="right" /></a>,
+      <a key="0" href="https://ant.design" target="_blank">Portfolio&nbsp;&nbsp;<Icon type="right" /></a>,
+      // <a key="1" href="https://mobile.ant.design" target="_blank">Mobile&nbsp;&nbsp;<Icon type="right" /></a>,
+      // <a key="2" href="https://pro.ant.design" target="_blank">Pro&nbsp;&nbsp;<Icon type="right" /></a>,
     ],
     Bg: Tetris,
   },
   {
-    title: 'AntV',
-    content: '简单、专业、拥有无限可能的数据可视化方案',
-    links: (<a href="https://antv.alipay.com" target="_blank">查看详情&nbsp;&nbsp;<Icon type="right" /></a>),
+    title: 'Data Visualization',
+    content: 'Graphs, Tables, and Charts for Analytics Panels',
+    links: (<a href="https://antv.alipay.com" target="_blank">Case Studies&nbsp;&nbsp;<Icon type="right" /></a>),
     Bg: Column,
   },
   {
-    title: 'AntG',
-    content: '智能、自然、惊艳的互联网互动体验',
-    links: (<a>敬请期待</a>),
+    title: 'Graphic /  UX Design',
+    content: 'Visual Direction/Assets For Your Project',
+    links: (<a>Portfolio</a>),
     Bg: Coordinate,
   },
   {
-    title: 'Egg',
-    content: 'Node.js & Koa，为企业级框架和应用而生',
-    links: (<a href="https://eggjs.org" target="_blank">查看详情&nbsp;&nbsp;<Icon type="right" /></a>),
+    title: 'eSports',
+    content: 'We handle everything from branding to site building - reach out for a the complete eSports Experience!',
+    links: (<a href="https://eggjs.org" target="_blank">Examples&nbsp;&nbsp;<Icon type="right" /></a>),
     full: true,
     Bg: Building,
   },
@@ -88,7 +88,7 @@ export default class Design extends React.PureComponent {
     return (
       <div className="page-wrapper page2">
         <div className="page">
-          <h1>简单可靠的技术</h1>
+          <h1>Services</h1>
           <i />
           <OverPack className="page2-content">
             <QueueAnim component={Row} key="queue" type="bottom" leaveReverse>
